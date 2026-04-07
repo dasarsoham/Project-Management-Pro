@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "1775590276696",
+      "fullName": "Soham",
+      "email": "soham.dasar07@gmail.com",
+      "password": "$2a$10$CQgPFOl7SOCcB8BZX/3reeVRzJniYdrzb1cssPpWWa2Z9JZikJQbW",
+      "role": "member",
+      "createdAt": "2026-04-07T19:31:16.696Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1775590358410",
+      "name": "ML Prediction",
+      "description": "",
+      "owner": "1775590276696",
+      "members": [
+        "1775590276696"
+      ],
+      "createdAt": "2026-04-07T19:32:38.410Z",
+      "status": "active"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1775590471582",
+      "projectId": "1775590358410",
+      "title": "data cleaning",
+      "description": "",
+      "priority": "medium",
+      "status": "in-progress",
+      "assignee": "1775590276696",
+      "createdBy": "1775590276696",
+      "createdAt": "2026-04-07T19:34:31.582Z",
+      "dueDate": null,
+      "completedAt": null
+    }
+  ]
+}
